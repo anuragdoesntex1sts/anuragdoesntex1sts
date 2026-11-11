@@ -41,7 +41,7 @@ FONT_FILES = {
     "serif-i": ("Instrument Serif", "italic", 400, "serif-italic.woff.b64"),
     "sans": ("Geist", "normal", 400, "geist-400.woff.b64"),
     "sans-b": ("Geist", "normal", 600, "geist-600.woff.b64"),
-    "mono": ("Geist Mono", "normal", 400, "geistmono-400.woff.b64"),
+    "mono": ("Geist Mono", "normal", 400, "geistmono-400.ttf.b64"),
 }
 
 BASE_CSS = """
@@ -113,9 +113,10 @@ def font_faces(keys: tuple[str, ...]) -> str:
     for key in keys:
         family, style, weight, filename = FONT_FILES[key]
         encoded = (FONTS / filename).read_text(encoding="ascii").strip()
+        mime, fmt = ("font/ttf", "truetype") if filename.endswith(".ttf.b64") else ("font/woff", "woff")
         faces.append(
             f"@font-face{{font-family:'{family}';font-style:{style};font-weight:{weight};"
-            f"src:url(data:font/woff;base64,{encoded}) format('woff')}}"
+            f"src:url(data:{mime};base64,{encoded}) format('{fmt}')}}"
         )
     return "".join(faces)
 
