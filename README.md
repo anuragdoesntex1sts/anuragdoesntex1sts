@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./cards/hero.svg" alt="Anurag Naskar — student developer building web apps and exploring machine learning" width="100%" />
+<img src="./cards/hero-portrait.svg" alt="Anurag Naskar — student developer building web apps and exploring machine learning" width="100%" />
 
 <img src="./cards/heatmap.svg" alt="Public GitHub contribution heatmap" width="100%" />
 
