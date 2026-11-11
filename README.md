@@ -8,7 +8,7 @@
 
 <br><br>
 
-<img src="./cards/activity.svg" alt="GitHub contribution activity for the last year" width="100%" />
+<img src="./cards/activity.svg" alt="Public GitHub contribution activity for the last year" width="100%" />
 
 <br>
 
