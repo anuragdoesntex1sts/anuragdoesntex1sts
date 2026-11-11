@@ -195,8 +195,8 @@ def render_hero() -> str:
     portrait_rows = (DATA / "avatar-ascii.txt").read_text(encoding="utf-8").splitlines()
     portrait = "".join(
         f'<text class="portrait" style="animation-delay:{0.5 + i * 0.018:.3f}s" '
-        f'x="595" y="{43 + i * 5.0:.1f}" xml:space="preserve" '
-        f'font-family="Geist Mono,monospace" font-size="4.6" fill="{INK}">{html.escape(row)}</text>'
+        f'x="588" y="{38 + i * 5.3:.1f}" xml:space="preserve" '
+        f'font-family="Geist Mono,monospace" font-size="5.2" fill="{INK}">{html.escape(row)}</text>'
         for i, row in enumerate(portrait_rows)
     )
     body = f'''<rect width="880" height="360" fill="{PAPER}"/>
