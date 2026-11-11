@@ -327,7 +327,7 @@ def main() -> None:
         save_days(days)
     calendar, total, active, streak, busiest, bars = calendar_data(days)
 
-    write_card("hero.svg", render_hero())
+    write_card("hero-portrait.svg", render_hero())
     write_card("heatmap.svg", render_heatmap(calendar))
     write_card("activity.svg", render_activity(total, active, streak, busiest, bars))
     write_card("build.svg", render_world_tile("BUILD", "CineLock", ("Cinema booking, seat holds", "and reconciled checkout."), BLUE, "#e5e9ff", 0))
