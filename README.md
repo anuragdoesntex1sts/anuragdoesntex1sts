@@ -10,7 +10,7 @@
 
 <img src="./cards/title-coding.svg" alt="What I’m coding" width="100%" />
 
-<a href="https://github.com/anuragdoesntex1sts/CineLock"><img src="./cards/repo-cinelock.svg" alt="CineLock project" width="33.333%" /></a><a href="https://github.com/anuragdoesntex1sts/redveg-commerce-ui"><img src="./cards/repo-redveg.svg" alt="RedVeg Commerce project" width="33.333%" /></a><a href="https://github.com/anuragdoesntex1sts/CodeAlpha_Disease-Prediction-from-Medical-Data"><img src="./cards/repo-disease.svg" alt="Disease Prediction project" width="33.333%" /></a>
+<a href="https://github.com/anuragdoesntex1sts/CineLock"><img src="./cards/repo-cinelock.svg" alt="CineLock project" width="33.333%" /></a><a href="https://github.com/anuragdoesntex1sts/Redveg-CMM"><img src="./cards/repo-redveg.svg" alt="RedVeg Commerce project" width="33.333%" /></a><a href="https://github.com/anuragdoesntex1sts/CodeAlpha_Disease-Prediction-from-Medical-Data"><img src="./cards/repo-disease.svg" alt="Disease Prediction project" width="33.333%" /></a>
 
 <br><br>
 
